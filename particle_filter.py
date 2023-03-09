@@ -8,7 +8,7 @@ from HH_package.hodgkinhuxley import HodgkinHuxley
 """
 SIGMA = 5.0
 
-class ParticleFilter8(HodgkinHuxley):
+class ParticleFilter(HodgkinHuxley):
     """
     Prticle filter implemented in python.
     """
@@ -193,7 +193,7 @@ def main():
     m_test = test_data[2]
     h_test = test_data[3]
     n_test = test_data[4]
-    pf = ParticleFilter8(V_train, V_test, m_test, h_test, n_test)
+    pf = ParticleFilter(V_train, V_test, m_test, h_test, n_test)
     pf.simulate()
     pf.draw_graph()
 
