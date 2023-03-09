@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from HH_packege.hodgkinhuxley import HodgkinHuxley
+from HH_package.hodgkinhuxley import HodgkinHuxley
 
 """
 観測ノイズの標準偏差
